@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
-import Card from "../../components/Card";
-import UserList from "../../components/UserList";
-import GreetingApp from "../Greeting/GreetingApp";
-import FeedbackForm from "../Feedback/FeedbackForm";
-import StatusBanner from "../../components/StatusBanner";
-import ToggleBio from "../Bio/ToggleBio";
+import Card from "../components/Card";
+import UserList from "../components/UserList";
+import GreetingApp from "../features/Greeting/GreetingApp";
+import FeedbackForm from "../features/Feedback/FeedbackForm";
+import StatusBanner from "../components/StatusBanner";
+import ToggleBio from "../features/Bio/ToggleBio";
 
 function RefDemo() {
     const inputRef = useRef(null);

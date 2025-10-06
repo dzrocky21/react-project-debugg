@@ -1,7 +1,6 @@
 import { React } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // import icon from "./assets/icon.png"
 // import brightSun from "./assets/brightSun.png";
 
@@ -31,7 +30,7 @@ import SelectAndRadioForm from "./features/Forms/SelectAndRadioForm";
 import FeedbackForm from "./features/Feedback/FeedbackForm";
 import DigitalClock from "./features/Clock/DigitalClock";
 import ThemeToggle from "./features/Theme/ThemeToggle";
-import RefDemo from "./features/Refdemo/RefDemo";
+import RefDemo from "./pages/RefDemo";
 import LikeCard from "./features/Like/LikeCard";
 import ToggleBio from "./features/Bio/ToggleBio";
 import CounterApp from "./features/Counter/CounterApp";
@@ -40,7 +39,7 @@ import NameContainer from "./features/Greeting/NameContainer";
 
 // Products
 import ProductCard from "./products/ProductCard";
-import TabbedContent from "./Tabs/TabbedContent";
+import TabbedContent from "./pages/TabbedContent";
 
 
 
@@ -129,11 +128,6 @@ function App() {
         <img src={brightSun} alt="My Assets" className="rotate" width= {150} height= {100} />
       </div>
     </div> */}
-    <Router>
-      <Routes>
-        <Route path= "/" element={< TabbedContent />}></Route>
-      </Routes>
-    </Router>
       <div className="container my-3">
         <div className="row justify-content-center my-3 mt-3">
             <div className="col"> 
