@@ -1,6 +1,7 @@
 import { React } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // import icon from "./assets/icon.png"
 // import brightSun from "./assets/brightSun.png";
 
@@ -128,6 +129,11 @@ function App() {
         <img src={brightSun} alt="My Assets" className="rotate" width= {150} height= {100} />
       </div>
     </div> */}
+    <Router>
+      <Routes>
+        <Route path= "/" element={< TabbedContent />}></Route>
+      </Routes>
+    </Router>
       <div className="container my-3">
         <div className="row justify-content-center my-3 mt-3">
             <div className="col"> 
