@@ -2,7 +2,7 @@
   "name": "react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dzrocky21.github.io/react-project-debugg",
+  "homepage": "https://dzrocky21.github.io/react-project-debugg/",
   "type": "module",
   "scripts": {
     "dev": "vite",
